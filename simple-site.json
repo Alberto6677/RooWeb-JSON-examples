@@ -1,0 +1,44 @@
+{
+  "__type": "rooweb-page",
+  "page": {
+    "titre": "exemple.roo",
+    "backgroundColor": "#ffffff",
+    "title": "exemple.roo"
+  },
+  "elements": [
+    {
+      "id": "el1763908889111",
+      "type": "text",
+      "content": "Exemple",
+      "fontSize": 50,
+      "fontFamily": "Verdana",
+      "layout": {
+        "x": {
+          "v": 0.53,
+          "o": 0
+        },
+        "y": {
+          "v": 0.5,
+          "o": 0
+        },
+        "w": {
+          "v": 0.49,
+          "o": 0
+        },
+        "h": {
+          "v": 0.42,
+          "o": 0
+        }
+      },
+      "borderRadius": 0,
+      "color": "#000000",
+      "background": "#ffffff00",
+      "backgroundColor": "#ffffff",
+      "name": "Texte"
+    }
+  ],
+  "editor": {
+    "width": 1086,
+    "height": 477
+  }
+}
