@@ -1,15 +1,15 @@
 {
   "__type": "rooweb-page",
   "page": {
-    "titre": "exemple.roo",
+    "titre": "Example",
     "backgroundColor": "#ffffff",
-    "title": "exemple.roo"
+    "title": "Example"
   },
   "elements": [
     {
       "id": "el1763908889111",
       "type": "text",
-      "content": "Exemple",
+      "content": "Example",
       "fontSize": 50,
       "fontFamily": "Verdana",
       "layout": {
@@ -34,7 +34,7 @@
       "color": "#000000",
       "background": "#ffffff00",
       "backgroundColor": "#ffffff",
-      "name": "Texte"
+      "name": "Text"
     }
   ],
   "editor": {
