@@ -1,0 +1,33 @@
+{
+  "__type": "rooweb-element",
+  "element": {
+    "id": "el1772690809581",
+    "type": "text",
+    "name": "Texte",
+    "content": "Nouveau texte",
+    "color": "#000000",
+    "fontFamily": "Arial",
+    "layout": {
+      "x": {
+        "v": 0.1,
+        "o": 0
+      },
+      "y": {
+        "v": 0.1,
+        "o": 0
+      },
+      "w": {
+        "v": 0.2,
+        "o": 0
+      },
+      "h": {
+        "v": 0.1,
+        "o": 0
+      }
+    },
+    "fontSize": 16,
+    "borderRadius": 0,
+    "background": "#ffffff00",
+    "backgroundColor": "#ffffff"
+  }
+}
