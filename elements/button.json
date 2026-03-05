@@ -1,0 +1,32 @@
+{
+  "__type": "rooweb-element",
+  "element": {
+    "id": "el1772690900070",
+    "type": "button",
+    "name": "Button",
+    "text": "Click here",
+    "layout": {
+      "x": {
+        "v": 0.1,
+        "o": 0
+      },
+      "y": {
+        "v": 0.1,
+        "o": 0
+      },
+      "w": {
+        "v": 0.2,
+        "o": 0
+      },
+      "h": {
+        "v": 0.1,
+        "o": 0
+      }
+    },
+    "backgroundColor": "#3b82f6",
+    "color": "#ffffff",
+    "borderRadius": 6,
+    "fontSize": 16,
+    "background": "#ffffff00"
+  }
+}
