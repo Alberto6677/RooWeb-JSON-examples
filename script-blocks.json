@@ -1,0 +1,211 @@
+{
+  "__type": "rooweb-element",
+  "element": {
+    "id": "el1772691169133",
+    "type": "script",
+    "name": "Script 1",
+    "blocks": [
+      {
+        "event": {
+          "id": "page.load",
+          "selectors": {}
+        },
+        "actions": [
+          {
+            "id": "element.input-get-text",
+            "values": [
+              "",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "id": "wait",
+            "values": [
+              ""
+            ],
+            "children": []
+          },
+          {
+            "id": "page.redirect",
+            "values": [
+              ""
+            ],
+            "children": []
+          },
+          {
+            "id": "page.get-param",
+            "values": [
+              "",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "id": "element.show",
+            "values": [
+              ""
+            ],
+            "children": []
+          },
+          {
+            "id": "element.def",
+            "values": [
+              "",
+              "",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "id": "element.anim",
+            "values": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "id": "cookie.get",
+            "values": [
+              "",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "id": "var.set",
+            "values": [
+              "",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "id": "var.del",
+            "values": [
+              ""
+            ],
+            "children": []
+          }
+        ],
+        "position": {
+          "left": "72.666687px",
+          "top": "47px"
+        },
+        "code": "document.addEventListener(\"DOMContentLoaded\", async () => {\nlet  = document.getElementById(\"\")?.value || \"\";  await new Promise(r => setTimeout(r, (0) * 1000));\n  window.location = `/`;\nconst  = new URLSearchParams(window.location.search).get(\"\") ?? \"\";  document.getElementById(\"\")?.style.setProperty(\"display\",\"flex\");\ndocument.getElementById(\"\")?.style.setProperty(\"\",``);document.getElementById(\"\")?.style.setProperty(\"transition\",\" s ease\"); document.getElementById(\"\")?.style.setProperty(\"\",``)let  = (JSON.parse(localStorage.getItem(\"RW-COOKIES\") || \"{}\")[\"exemple\"]?.[``] || \"\");  let  = ``;\n   = undefined;\n});\n"
+      },
+      {
+        "event": {
+          "id": "element.click",
+          "selectors": {
+            "target": ""
+          }
+        },
+        "actions": [
+          {
+            "id": "console.log",
+            "values": [
+              ""
+            ],
+            "children": []
+          },
+          {
+            "id": "console.warn",
+            "values": [
+              ""
+            ],
+            "children": []
+          },
+          {
+            "id": "element.hide",
+            "values": [
+              ""
+            ],
+            "children": []
+          },
+          {
+            "id": "console.error",
+            "values": [
+              ""
+            ],
+            "children": []
+          },
+          {
+            "id": "element.get-prop",
+            "values": [
+              "",
+              "",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "id": "element.def-text",
+            "values": [
+              "",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "id": "cookie.set",
+            "values": [
+              "",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "id": "cookie.del",
+            "values": [
+              ""
+            ],
+            "children": []
+          },
+          {
+            "id": "var.add",
+            "values": [
+              "",
+              ""
+            ],
+            "children": []
+          }
+        ],
+        "position": {
+          "left": "487.999939px",
+          "top": "46.666656px"
+        },
+        "code": "document.getElementById(\"document\")?.addEventListener(\"click\", async () => {\n  console.log(``);\n  console.warn(``);\n  document.getElementById(\"\")?.style.setProperty(\"display\",\"none\");\n  console.error(``);\nlet  = document.getElementById(\"\")?.style?.[\"\"] || \"\"document.getElementById(\"\").textContent = ``;localStorage.setItem(\"RW-COOKIES\",JSON.stringify({...JSON.parse(localStorage.getItem(\"RW-COOKIES\") || \"{}\"),[\"exemple\"]: {...(JSON.parse(localStorage.getItem(\"RW-COOKIES\") || \"{}\")[\"exemple\"] || {}),[``]: ``}}));localStorage.setItem(\"RW-COOKIES\",JSON.stringify({...JSON.parse(localStorage.getItem(\"RW-COOKIES\") || \"{}\"),[\"exemple\"]:Object.fromEntries(Object.entries(JSON.parse(localStorage.getItem(\"RW-COOKIES\") || \"{}\")[\"exemple\"] || {}).filter(([k]) => k !== ``))}));   += ``;\n});\n"
+      }
+    ],
+    "code": "document.addEventListener(\"DOMContentLoaded\", async () => {\nlet  = document.getElementById(\"\")?.value || \"\";  await new Promise(r => setTimeout(r, (0) * 1000));\n  window.location = `/`;\nconst  = new URLSearchParams(window.location.search).get(\"\") ?? \"\";  document.getElementById(\"\")?.style.setProperty(\"display\",\"flex\");\ndocument.getElementById(\"\")?.style.setProperty(\"\",``);document.getElementById(\"\")?.style.setProperty(\"transition\",\" s ease\"); document.getElementById(\"\")?.style.setProperty(\"\",``)let  = (JSON.parse(localStorage.getItem(\"RW-COOKIES\") || \"{}\")[\"exemple\"]?.[``] || \"\");  let  = ``;\n   = undefined;\n});\n\ndocument.getElementById(\"document\")?.addEventListener(\"click\", async () => {\n  console.log(``);\n  console.warn(``);\n  document.getElementById(\"\")?.style.setProperty(\"display\",\"none\");\n  console.error(``);\nlet  = document.getElementById(\"\")?.style?.[\"\"] || \"\"document.getElementById(\"\").textContent = ``;localStorage.setItem(\"RW-COOKIES\",JSON.stringify({...JSON.parse(localStorage.getItem(\"RW-COOKIES\") || \"{}\"),[\"exemple\"]: {...(JSON.parse(localStorage.getItem(\"RW-COOKIES\") || \"{}\")[\"exemple\"] || {}),[``]: ``}}));localStorage.setItem(\"RW-COOKIES\",JSON.stringify({...JSON.parse(localStorage.getItem(\"RW-COOKIES\") || \"{}\"),[\"exemple\"]:Object.fromEntries(Object.entries(JSON.parse(localStorage.getItem(\"RW-COOKIES\") || \"{}\")[\"exemple\"] || {}).filter(([k]) => k !== ``))}));   += ``;\n});\n",
+    "enabled": true,
+    "layout": {
+      "x": {
+        "v": 0.09,
+        "o": 0
+      },
+      "y": {
+        "v": 0.17,
+        "o": 0
+      },
+      "w": {
+        "v": 0.15,
+        "o": 0
+      },
+      "h": {
+        "v": 0.25,
+        "o": 0
+      }
+    },
+    "fontSize": 16,
+    "borderRadius": 0,
+    "color": "#000000",
+    "background": "#ffffff00",
+    "backgroundColor": "#ffffff"
+  }
+}
