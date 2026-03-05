@@ -1,0 +1,32 @@
+{
+  "__type": "rooweb-element",
+  "element": {
+    "id": "el1772691132583",
+    "type": "frame",
+    "name": "Cadre",
+    "layout": {
+      "x": {
+        "v": 0.6,
+        "o": 0
+      },
+      "y": {
+        "v": 0.34,
+        "o": 0
+      },
+      "w": {
+        "v": 0.2,
+        "o": 0
+      },
+      "h": {
+        "v": 0.43,
+        "o": 0
+      }
+    },
+    "backgroundColor": "#ccc",
+    "border": "2px solid #ccc",
+    "fontSize": 16,
+    "borderRadius": 0,
+    "color": "#000000",
+    "background": "#ffffff00"
+  }
+}
